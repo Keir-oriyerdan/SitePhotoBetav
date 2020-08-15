@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 5px;
+  position: relative;
+  background-color: rgb(241, 238, 234);
+}
+
+.title{ 
+   margin-right: 30px;
+   margin-left: 40px;
+   margin-top: 15px;
+   width: 60px;
+   height: 60px;
+}
+
+.navbar {
+    background-color:rgb(241, 238, 234); 
+    display: flex;
+    align-items: center;
+  }
+
+  ul{
+      margin-left: 40%;
+      
+  }
+  li a{
+    margin: 0 30px;
+    font-family: 'Abril Fatface';
+    color: rgb(73, 14, 14);
+    
+  }
+  .navbar-top{
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .navbar ul li {
+      display: inline;
+  }
+
+  .navbar-2{
+    width: 100%;
+    display: inline;
+  }
+
+  section{
+    height: 90vh;
+  }
+
+  .sidenav{
+  background-color: rgb(241, 238, 234);
+  height: 85vh; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 1; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 130px;
+  }
+
+  .sidenav a { 
+  font-family: 'Playfair Display', serif;
+   padding: 6px 28px 36px 16px;
+  text-decoration: none;
+  top: -10;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  
+  }
+
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+
+
+  .horizontal-slider {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 12px;
+    position: relative;
+    margin-left: 160px;
+  
+  }
+  .slider-container{
+    display: block;
+    white-space: nowrap;
+  }
+
+
+  .item{
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .item img{
+    width: 100%;
+  }
+
+  img{
+    height: 600px;
+    
+  }
+
+  footer{
+    height: 20px;
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+  }
+
+  
+
+  
+  
