@@ -8,6 +8,24 @@ body {
   background-color: rgb(241, 238, 234);
 }
 
+.icon img {
+  height: 150px;
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+
+.icon img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.iconcontainer {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+}
+
 .title {
   margin-right: 30px;
   margin-left: 40px;

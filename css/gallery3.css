@@ -5,7 +5,7 @@
 body {
     margin: 5px;
     position: relative;
-    background-color: rgb(241, 238, 234);
+    background-color: rgb(16, 33, 65);
   }
 
 .bigmenu{
@@ -13,7 +13,7 @@ body {
   margin: -150px;
   margin-left: 50px;
   display: flex;
-  background-color: rgb(241, 238, 234);
+  background-color:  rgb(16, 33, 65);
     width: 100%;
     padding-top: 30px;
     

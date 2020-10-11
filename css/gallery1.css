@@ -5,7 +5,7 @@
 body {
   margin: 5px;
   position: relative;
-  background-color: rgb(241, 238, 234);
+  background-color: rgb(7, 28, 37);
 }
 
 .navbar-2{
@@ -14,7 +14,7 @@ body {
 }
 
 .sidenav{
-  background-color: rgb(241, 238, 234);
+  background-color: rgb(7, 28, 37);
   height: 85vh; /* Full-height: remove this if you want "auto" height */
 width: 160px; /* Set the width of the sidebar */
 position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -35,7 +35,7 @@ margin-bottom: 130px;
 text-decoration: none;
 top: -10;
 font-size: 25px;
-color: #818181;
+color: #bdc7c7;
 display: block;
 
 }

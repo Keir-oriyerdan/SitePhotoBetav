@@ -5,7 +5,12 @@
 body {
   margin: 5px;
   position: relative;
-  background-color: rgb(241, 238, 234);
+  background-color: rgb(7, 28, 37);
+}
+
+p { 
+  color: rgb(167, 192, 192);
+
 }
 
 .bigmenu {
@@ -13,7 +18,7 @@ body {
   margin: -170px;
   margin-left: 50px;
   display: flex;
-  background-color: rgb(241, 238, 234);
+  background-color: rgb(7, 28, 37);
   width: 100%;
   padding-top: 30px;
 }
@@ -38,7 +43,7 @@ p {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #e8ebec;
   display: block;
 }
 
@@ -80,7 +85,7 @@ ul {
 }
 
 .sidenav {
-  background-color: rgb(241, 238, 234);
+  background-color:rgb(7, 28, 37);
   height: 85vh; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -102,7 +107,7 @@ ul {
   text-decoration: none;
   top: -10;
   font-size: 25px;
-  color: #818181;
+  color: #e4e7e7;
   display: block;
 }
 
