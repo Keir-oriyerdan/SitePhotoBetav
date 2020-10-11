@@ -3,108 +3,105 @@
 }
 
 body {
-    background-color: rgb(241, 238, 234);
-  }
-  
-  /* navbar top */
-
-  .title{ 
-    margin-right: 30px;
-    margin-left: 40px;
-    top: 2px;
-    width: 60px;
-    height: 60px;
-    position: fixed;
- }
- 
-  .navbar {
-     background-color:rgb(241, 238, 234); 
-     display: flex;
-     align-items: center;
-      width: 100%;
-      padding-top: 10px;
-     height: 40px;
-     left: 0;
-     display: flex;
-     align-items: center;
-     position: fixed;
-      
-   }
-
-   .navbar-top{
-     
-   }
-   
-   .navbar ul li {
-       display: inline;
-   }
-   ul{
-    margin-left: 40%;    
+  background-color: rgb(241, 238, 234);
 }
 
- li a{
+/* navbar top */
+
+.title {
+  margin-right: 30px;
+  margin-left: 40px;
+  top: 2px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+}
+
+.navbar {
+  background-color: rgb(241, 238, 234);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  height: 40px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.navbar-top {
+}
+
+.navbar ul li {
+  display: inline;
+}
+ul {
+  margin-left: 40%;
+}
+
+li a {
   margin: 0 30px;
-  font-family: 'Abril Fatface';
+  font-family: "Abril Fatface";
   color: rgb(73, 14, 14);
 }
 
-   /*NAVBAR SIDE */
+/*NAVBAR SIDE */
 
-   .navbar-2{
-    width: 100%;
-    display: inline;
-   }
- 
-  .textmenu{
-  margin-left:50px;
+.navbar-2 {
+  display: inline;
+}
+
+.textmenu {
+  margin-left: 50px;
   padding: 0px;
   display: flex;
 }
 
-  .navbar-2{
-  width: 100%;
+.navbar-2 {
   display: inline;
 }
 
-.sidenav{
-background-color: rgb(241, 238, 234);
-height: 85vh; /* Full-height: remove this if you want "auto" height */
-width: 200px; /* Set the width of the sidebar */
-position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-z-index: 1; /* Stay on top */
-top: 1; /* Stay at the top */
-left: 0;
-overflow-x: hidden; /* Disable horizontal scroll */
-padding-top: -50px;
-display: flex;
-top: 100px;
-flex-direction: column;
-justify-content: space-around;
-margin-bottom: 130px;
+.sidenav {
+  background-color: rgb(241, 238, 234);
+  height: 85vh; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 1; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: -50px;
+  display: flex;
+  top: 100px;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 130px;
 }
 
-.sidenav a { 
-font-family: 'Abril Fatface', cursive;
-padding: 6px 28px 36px 16px;
-text-decoration: none;
-top: -10;
-font-size: 25px;
-color: #818181;
-display: block;
+.sidenav a {
+  font-family: "Abril Fatface", cursive;
+  padding: 6px 28px 36px 16px;
+  text-decoration: none;
+  top: -10;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
 
 /* PHOTO + FORM */
-.form{
-  
+.form {
 }
- .sidepic{
-width: 90%;
-margin-top: 100px;
-margin-left: 192px;
-position: relative;
+.sidepic {
+  width: 90%;
+  margin-top: 100px;
+  margin-left: 192px;
+  position: relative;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -117,7 +114,7 @@ label {
   display: inline-block;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #29412a;
   color: white;
   padding: 12px 20px;
@@ -127,19 +124,19 @@ input[type=submit] {
   float: right;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #5f7c62;
 }
 
 .container {
   margin-top: -750px;
   border-radius: 5px;
-  background-color:rgb(241, 238, 234);;
+  background-color: rgb(241, 238, 234);
   padding: 20px;
   width: 30%;
   margin-left: 63%;
   position: absolute;
-  left:0;
+  left: 0;
   bottom: 0;
 }
 
@@ -164,49 +161,45 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
-
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+  /* Create four equal columns that sits next to each other */
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
   }
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-
-  
-  

@@ -3,104 +3,92 @@
 }
 
 body {
-    margin: 5px;
-    position: relative;
-    background-color: rgb(241, 238, 234);
-  }
-  
-  .title{ 
-    margin-right: 30px;
-    margin-left: 40px;
-    margin-top: 15px;
-    width: 60px;
-    height: 60px;
- }
- 
- .navbar {
-     background-color:rgb(241, 238, 234); 
-     display: flex;
-     align-items: center;
-   }
- 
-   ul{
-       margin-left: 40%;
-       
-   }
-   li a{
-     margin: 0 30px;
-     font-family: 'Abril Fatface';
-     color: rgb(73, 14, 14);
-     
-   }
-   .navbar-top{
-     display: flex;
-     align-items: center;
-   }
-   
- 
-   .navbar ul li {
-       display: inline;
-   }
- 
-   .navbar-2{
-     width: 100%;
-     display: inline;
-   }
- 
- 
+  margin: 5px;
+  position: relative;
+  background-color: rgb(241, 238, 234);
+}
 
-.menu{
-  margin-left:50px;
+.title {
+  margin-right: 30px;
+  margin-left: 40px;
+  margin-top: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.navbar {
+  background-color: rgb(241, 238, 234);
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  margin-left: 40%;
+}
+li a {
+  margin: 0 30px;
+  font-family: "Abril Fatface";
+  color: rgb(73, 14, 14);
+}
+.navbar-top {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar-2 {
+  display: inline;
+}
+
+.menu {
+  margin-left: 50px;
   padding: 0px;
   display: flex;
-
 }
 
-
-ul{
-  align-items: center; 
+ul {
+  align-items: center;
 }
-  .menu li {
-    display: inline;
-    list-style: none;
-    padding: 10px;
-    font-size: 25px;
-    font-family:'Amatic SC', cursive;
-  }
+.menu li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+}
 
+.all {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 5%;
+}
+.all .text .portrait {
+  display: inline-block;
+}
 
-  .all{
-display: flex;
-margin-right: 50px;
-margin-top: 5%;
+.text {
+  size: 25px;
+  text-align: justify;
+  width: 50%;
+  font-family: "Amatic SC", cursive;
+}
 
-  }
-  .all .text .portrait{
-    display: inline-block;
-  }
+.portrait {
+  margin-left: 18%;
+  height: 360px;
+  width: 360px;
+}
 
-  .text {
-    size: 25px;
-    text-align: justify;
-    width: 50%;
-    font-family:'Amatic SC', cursive;
-    
-  }
+.navbar-2 {
+  display: inline;
+}
 
-  .portrait{
-    margin-left: 18%;
-    height: 360px;
-    width: 360px;
-  }
-
-.navbar-2{
-    width: 100%;
-    display: inline;
-  }
-  
-  .sidenav{
-    background-color: rgb(241, 238, 234);
-    height: 85vh; /* Full-height: remove this if you want "auto" height */
+.sidenav {
+  background-color: rgb(241, 238, 234);
+  height: 85vh; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
@@ -113,22 +101,21 @@ margin-top: 5%;
   flex-direction: column;
   justify-content: space-around;
   margin-bottom: 130px;
-  }
+}
 
-  .sidenav a { 
-  font-family: 'Abril Fatface', cursive;
-   padding: 6px 28px 36px 16px;
+.sidenav a {
+  font-family: "Abril Fatface", cursive;
+  padding: 6px 28px 36px 16px;
   text-decoration: none;
   top: -10;
   font-size: 25px;
   color: #818181;
   display: block;
-  
-  }
+}
 
-#gallery{
-    margin-top: 130px;
-    margin-left: 160px;
+#gallery {
+  margin-top: 130px;
+  margin-left: 160px;
 }
 
 .row {
@@ -165,7 +152,3 @@ margin-top: 5%;
     max-width: 100%;
   }
 }
-
-
-  
-  

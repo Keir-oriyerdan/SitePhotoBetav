@@ -3,13 +3,12 @@
 }
 
 body {
-    margin: 5px;
-    position: relative;
-    background-color: rgb(241, 238, 234);
-  }
-  
+  margin: 5px;
+  position: relative;
+  background-color: rgb(241, 238, 234);
+}
 
-.bigmenu{
+.bigmenu {
   position: fixed;
   margin: -170px;
   margin-left: 50px;
@@ -19,77 +18,70 @@ body {
   padding-top: 30px;
 }
 
-.bigmenu p ul{
-  display: inline; 
- 
+.bigmenu p ul {
+  display: inline;
 }
 
-p{
+p {
   font-size: 30px;
   margin-left: 50px;
-  font-family: 'Amatic SC', cursive;;
+  font-family: "Amatic SC", cursive;
 }
-.menu{
-  margin-left:50px;
+.menu {
+  margin-left: 50px;
   padding: 0px;
   display: flex;
-
 }
 
-.textmenu{
-  font-family: 'Abril Fatface', cursive;
-      padding: 6px 8px 6px 16px;
+.textmenu {
+  font-family: "Abril Fatface", cursive;
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
 }
 
-ul{
-  align-items: center; 
+ul {
+  align-items: center;
 }
-  .menu li {
-    display: inline;
-    list-style: none;
-    padding: 10px;
-    font-size: 25px;
-    font-family:'Amatic SC', cursive;
-  }
+.menu li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+}
 
+.all {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 18%;
+}
+.all .text .portrait {
+  display: inline-block;
+}
 
-  .all{
-display: flex;
-margin-right: 50px;
-margin-top: 18%;
+.text {
+  size: 13px;
+  text-align: justify;
+  width: 50%;
+}
 
-  }
-  .all .text .portrait{
-    display: inline-block;
-  }
+.portrait {
+  margin-left: 18%;
+  height: 360px;
+  width: 360px;
+}
 
-  .text {
-    size: 13px;
-    text-align: justify;
-    width: 50%;
-    
-  }
+.navbar-2 {
+  width: 100%;
+  display: inline;
+}
 
-  .portrait{
-    margin-left: 18%;
-    height: 360px;
-    width: 360px;
-  }
-
-
-
-.navbar-2{
-    width: 100%;
-    display: inline;
-  }
-  
-  .sidenav{
-    background-color: rgb(241, 238, 234);
-    height: 85vh; /* Full-height: remove this if you want "auto" height */
+.sidenav {
+  background-color: rgb(241, 238, 234);
+  height: 85vh; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
@@ -102,22 +94,21 @@ margin-top: 18%;
   flex-direction: column;
   justify-content: space-around;
   margin-bottom: 130px;
-  }
+}
 
-  .sidenav a { 
-  font-family: 'Abril Fatface', cursive;
-   padding: 6px 28px 36px 16px;
+.sidenav a {
+  font-family: "Abril Fatface", cursive;
+  padding: 6px 28px 36px 16px;
   text-decoration: none;
   top: -10;
   font-size: 25px;
   color: #818181;
   display: block;
-  
-  }
+}
 
-#gallery{
-    margin-top: 130px;
-    margin-left: 160px;
+#gallery {
+  margin-top: 130px;
+  margin-left: 160px;
 }
 
 .row {
@@ -154,7 +145,3 @@ margin-top: 18%;
     max-width: 100%;
   }
 }
-
-
-  
-  
