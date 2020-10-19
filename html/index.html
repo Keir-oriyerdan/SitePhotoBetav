@@ -17,75 +17,86 @@
       rel="stylesheet"
       type="text/css"
     />
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="../js/components/Menu.jsx"></script>
   </head>
-  <body>
+  <body id="root">
+    <script type="text/babel">
+      ReactDOM.render(
+        <div>
+          {" "}
+          <Menu />
+          <section>
+            <div class="navbar-2">
+              <div class="sidenav">
+                <a class="textmenu" href="./gallery1.html">
+                  Nature
+                </a>
+                <a class="textmenu" href="./gallery2.html">
+                  Medieval
+                </a>
+                <a class="textmenu" href="./gallery3.html">
+                  Wedding
+                </a>
+                <a class="textmenu" href="./gallery4.html">
+                  Portraits
+                </a>
+                <a class="textmenu" href="./gallery5.html">
+                  Events
+                </a>
+                <a class="textmenu" href="./gallery6.html">
+                  Shows
+                </a>
+                <a class="textmenu" href="./gallery7.html">
+                  Concerts
+                </a>
+                <a class="textmenu" href="./gallery8.html">
+                  Personal
+                </a>
+              </div>
+            </div>
+            <div class="horizontal-slider">
+              <div class="slider-container">
+                <div class="item">
+                  <img src="../images/slider/01.jpg" class="slider-image" />
+                </div>
+                <div class="item">
+                  <img src="../images/slider/02.jpg" class="slider-image" />
+                </div>
+                <div class="item">
+                  <img src="../images/slider/03.jpg" class="slider-image" />
+                </div>
+                <div class="item">
+                  <img src="../images/slider/04.jpg" class="slider-image" />
+                </div>
+                <div class="item">
+                  <img src="../images/slider/05.jpg" class="slider-image" />
+                </div>
+                <div class="item">
+                  <img src="../images/slider/06.jpg" class="slider-image" />
+                </div>
+                <div class="item">
+                  <img src="../images/slider/07.jpg" class="slider-image" />
+                </div>
+                <div class="item">
+                  <img src="../images/slider/08.jpg" class="slider-image" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <p>What the fuck</p>
+          </footer>
+        </div>,
+        document.getElementById("root")
+      );
+    </script>
     <!-- Fixed navbar -->
     <!-- navbar-fixed-top -->
-    <nav>
-      <div>
-        <div class="navbar">
-          <a href="index.html" title="ImionnSiad"
-            ><img class="title" src="../images/assets/logo.png"
-          /></a>
-          <ul class="navbar-top">
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li><a href="./categories.html">Galleries</a></li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="#">Mentions légales</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <section>
-      <div class="navbar-2">
-        <div class="sidenav">
-          <a class="textmenu" href="./gallery1.html">Nature</a>
-          <a class="textmenu" href="./gallery2.html">Medieval</a>
-          <a class="textmenu" href="./gallery3.html">Wedding</a>
-          <a class="textmenu" href="./gallery4.html">Portraits</a>
-          <a class="textmenu" href="./gallery5.html">Events</a>
-          <a class="textmenu" href="./gallery6.html">Shows</a>
-          <a class="textmenu" href="#">Concerts</a>
-          <a class="textmenu" href="#">Personal</a>
-        </div>
-      </div>
-      <div class="horizontal-slider">
-        <div class="slider-container">
-          <div class="item">
-            <img src="../images/slider/01.jpg" class="slider-image" />
-          </div>
-          <div class="item">
-            <img src="../images/slider/02.jpg" class="slider-image" />
-          </div>
-          <div class="item">
-            <img src="../images/slider/03.jpg" class="slider-image" />
-          </div>
-          <div class="item">
-            <img src="../images/slider/04.jpg" class="slider-image" />
-          </div>
-          <div class="item">
-            <img src="../images/slider/05.jpg" class="slider-image" />
-          </div>
-          <div class="item">
-            <img src="../images/slider/06.jpg" class="slider-image" />
-          </div>
-          <div class="item">
-            <img src="../images/slider/07.jpg" class="slider-image" />
-          </div>
-          <div class="item">
-            <img src="../images/slider/08.jpg" class="slider-image" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <p>What the fuck</p>
-    </footer>
   </body>
 </html>

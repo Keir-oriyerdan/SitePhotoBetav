@@ -39,13 +39,13 @@ li a {
   display: inline;
 }
 
+section {
+  height: 90vh;
+}
+
 .navbar-2 {
   width: 100%;
   display: inline;
-}
-
-section {
-  height: 90vh;
 }
 
 .sidenav {
@@ -121,8 +121,7 @@ footer {
 
 */
 
-
-.containerlogo{
+.containerlogo {
   position: absolute;
   z-index: 1;
   height: 20%;
@@ -130,7 +129,6 @@ footer {
   margin-top: 40vh;
   color: #fff;
   text-align: center;
-
 }
 .logo {
   padding: 20px;
@@ -172,7 +170,7 @@ footer {
   transition: transform 0.3s;
   font-family: "Amatic SC", cursive;
   font-size: 30px;
-  color: #545b64bd
+  color: #545b64bd;
 }
 
 .containerlogo:hover .text {
